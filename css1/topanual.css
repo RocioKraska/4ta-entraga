@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* .cuerpo {
+  background-color: black;
+  height: 625px;
+}
+* .cuerpo .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 2vh;
+}
+* .cuerpo .nav .navCategoria {
+  font-family: "Mate SC", serif;
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+* .cuerpo .nav .navCategoria:hover {
+  color: #FFB740;
+  animation: nav 1s;
+}
+@keyframes nav {
+  0% {
+    font-size: 17px;
+  }
+  100% {
+    font-size: 19px;
+  }
+}
+* .cuerpo .nav .navTitulo {
+  font-family: "DM Serif Display", serif;
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+* .cuerpo #carouselExampleCaptions {
+  margin-top: 30px;
+  width: 700px;
+  height: 500px;
+  margin-left: 90px;
+  animation: texto 4s;
+  font-family: "Mate SC", serif;
+}
+* .cuerpo .d-block {
+  width: 700px;
+  height: 500px;
+}
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+* footer {
+  background-color: black;
+  margin: 0px;
+}
+* footer .horariosFooter {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  font-family: "Mate SC", serif;
+}
+* footer .horariosFooter .horarios {
+  color: white;
+}
+* footer .horariosFooter .dias {
+  color: #FFB740;
+}
+
+
+@media (max-width:850px) and (min-width:833px) {
+  * .cuerpo  #carouselExampleCaptions .carousel-inner{
+    margin-top: 10px;
+    width: 700px;
+    height: 500px;   
+  }
+  * .cuerpo .d-block {
+    width: 700px;
+    height: 500px;
+  }
+}
+@media (max-width:833px) and (min-width:656px) {
+  * .cuerpo #carouselExampleCaptions {
+    margin-top: 30px;
+    width: 500px;
+    height: 400px;   
+  }
+  * .cuerpo .d-block {
+    width: 500px;
+    height: 400px;
+  }
+
+
+}
+
+@media (max-width:656px) and (min-width:600px) {
+  * .cuerpo #carouselExampleCaptions {
+    margin-top: 30px;
+    width: 400px;
+    height: 300px;   
+  }
+  * .cuerpo .d-block {
+    width: 400px;
+    height: 300px;
+  }
+
+
+}
+@media (max-width:600px) and (min-width:400px) {
+  * .cuerpo #carouselExampleCaptions {
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;   
+  }
+  * .cuerpo .d-block {
+    width: 300px;
+    height: 200px;
+  }
+
+
+}
+@media (max-width: 600px) {
+  footer .horariosFooter {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+  }
+}
+@media (max-width: 450px) {
+  .cuerpo .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+padding-left: 20px;
+
+  }
+  * .cuerpo #carouselExampleCaptions {
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;   
+    margin-left: 20px;
+  }
+  * .cuerpo .d-block {
+    width: 300px;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=topanual.css.map */

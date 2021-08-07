@@ -1,0 +1,94 @@
+
+    .cuerpo{
+        background: url(fondo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 625px;
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: white;
+        padding-top: 2vh;
+        .navCategoria{
+            font-family: 'Mate SC', serif;
+            font-size: 17px;
+            color: white;
+            text-decoration: none;
+        }
+        .navCategoria:hover{
+            color:#FFB740 ;
+         animation: nav 1s;
+         }
+         @keyframes nav{
+            0%{
+                font-size: 17px;
+            }
+                100%{
+                    font-size: 19px;
+                }
+            }
+            .navTitulo{
+                font-family: 'DM Serif Display', serif;
+                font-size: 23px;
+            }   
+            
+
+
+}
+        
+
+
+aside{
+    margin-top: 250px;
+    margin-left: 40px;
+    width: 600px;
+
+
+}
+    h1{
+        color: white;
+        font-family: 'DM Serif Display', serif;
+        animation: texto 4s;
+    }
+    h2{
+        color: white;
+        font-family: 'Mate SC', serif;
+        animation: texto 4s;
+    }
+    @keyframes texto{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+    }
+
+    
+    footer{
+        background-color: black;
+        margin: 0px;
+        .horariosFooter{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            list-style: none;
+            font-family: 'Mate SC', serif;
+            .horarios{
+                color: white;
+            }
+            .dias{
+                color: #FFB740;
+                
+            }
+        }
+    }
+
+        
+    

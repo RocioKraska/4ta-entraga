@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* .cuerpo {
+  background-color: black;
+  height: 650px;
+}
+* .cuerpo .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 2vh;
+}
+* .cuerpo .nav .navCategoria {
+  font-family: "Mate SC", serif;
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+* .cuerpo .nav .navCategoria:hover {
+  color: #FFB740;
+  animation: nav 1s;
+}
+@keyframes nav {
+  0% {
+    font-size: 17px;
+  }
+  100% {
+    font-size: 19px;
+  }
+}
+* .cuerpo .nav .navTitulo {
+  font-family: "DM Serif Display", serif;
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+* .cuerpo .contactoPrincipal {
+  font-family: "Mate SC", serif;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: 20px;
+}
+* .cuerpo .contactoPrincipal form {
+  margin-top: 50px;
+}
+* .cuerpo .contactoPrincipal .imagen {
+  height: 550px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+* .cuerpo .contactoPrincipal .texto1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+* .cuerpo .contactoPrincipal .texto1 .tituloPrincipal {
+  font-size: 50px;
+  font-family: "DM Serif Display", serif;
+}
+* footer {
+  background-color: black;
+  margin: 0px;
+}
+* footer .horariosFooter {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  font-family: "Mate SC", serif;
+}
+* footer .horariosFooter .horarios {
+  color: white;
+}
+* footer .horariosFooter .dias {
+  color: #FFB740;
+}
+@media (max-width:921px) {
+    * .cuerpo .contactoPrincipal .imagen {
+        width: 0px;
+        height: 0px;
+    }
+
+    * footer {
+        background-color: black;
+        margin-top:  250px;
+      }
+}
+
+@media (max-width: 450px) {
+    
+    .cuerpo .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  padding-left: 20px;
+    }
+  }
+  @media (max-width: 600px) {
+
+    .cuerpo aside{
+        width: 400px;
+    }
+    footer .horariosFooter {
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  
+    }
+    * .cuerpo .contactoPrincipal .texto1 {
+        width: 200px;
+        height: 400px;
+    }
+
+* .cuerpo {
+  background-color: black;
+  height: 800px;
+}
+
+  }
+  @media (max-width:511px) and (min-width: 300px) {
+    * .cuerpo {
+        background-color: black;
+        height: 800px;
+      }
+      
+    * .cuerpo .contactoPrincipal{
+        width: 350px;
+
+
+    }
+    * .cuerpo .contactoPrincipal .texto1 {
+   width: 0px;
+   height: 0px;
+        font-size: 0px;
+
+    }
+    * .cuerpo .contactoPrincipal .texto1 .tituloPrincipal{
+        font-size: 0px;
+    }
+
+  }
+/*# sourceMappingURL=conectar.css.map */

@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    .cuerpo {
+        background-color: black;
+        height: 625px;
+        .nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            color: white;
+            padding-top: 2vh;
+
+            .navCategoria{
+                font-family: 'Mate SC', serif;
+                font-size: 17px;
+                color: white;
+                text-decoration: none;
+                list-style: none;
+            }
+            .navCategoria:hover{
+               color:#FFB740 ;
+            animation: nav 1s;
+            }
+            @keyframes nav{
+            0%{
+                font-size: 17px;
+            }
+                100%{
+                    font-size: 19px;
+                }
+            }
+            .navTitulo{
+                font-family: 'DM Serif Display', serif;
+                font-size: 23px;
+                color: white;
+                text-decoration: none;
+                list-style: none;
+            }
+
+}
+#carouselExampleCaptions{
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+margin-left: 90px;
+animation: texto 4s;
+font-family: 'Mate SC', serif;
+}
+.d-block{
+
+    width: 700px;
+    height: 500px;}
+
+
+    @keyframes texto{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    }
+    footer{
+        background-color: black;
+        margin: 0px;
+    
+    .horariosFooter{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        font-family: 'Mate SC', serif;
+        .horarios{
+            color: white;
+        }
+        .dias{
+            color: #FFB740;
+            
+        }
+    }
+}
+}

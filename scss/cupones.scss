@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    .cuerpo {
+        background-color: black;
+        height: 625px;
+        .nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            color: white;
+            padding-top: 2vh;
+
+            .navCategoria{
+                font-family: 'Mate SC', serif;
+                font-size: 17px;
+                color: white;
+                text-decoration: none;
+                list-style: none;
+            }
+            .navCategoria:hover{
+               color:#FFB740 ;
+            animation: nav 1s;
+            }
+            @keyframes nav{
+            0%{
+                font-size: 17px;
+            }
+                100%{
+                    font-size: 19px;
+                }
+            }
+            .navTitulo{
+                font-family: 'DM Serif Display', serif;
+                font-size: 23px;
+                color: white;
+                text-decoration: none;
+                list-style: none;
+            }
+
+        }
+        
+section{
+    display: grid;
+    grid-template-areas: 
+    "productos publicidad";
+    grid-template-columns: 50% 50%;
+    font-family: 'Mate SC', serif;
+
+    animation-name: entrada;
+    animation-duration: 4s;
+
+
+@keyframes entrada {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+        .containerPrincipal{
+            grid-area: productos;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+           align-content: flex-start;
+           margin-top: 10px;
+           .container1{
+            margin-bottom: 10px;
+            padding: 5px 5px 5px 5px;
+            border: 2px solid #FFB740;
+            border-radius: 6px;
+            background-color: black;
+            color: white;
+            
+.imagen{
+    width: 160px;
+    height: 80px;
+}
+        }
+
+        }
+        .containerSecundario{
+            grid-area: publicidad;
+            margin-top: 10px;
+            height: 550px;
+            .container2{
+                margin-bottom: 10px;
+                padding: 5px 5px 5px 5px;
+                border: 2px solid #FFB740;
+                border-radius: 6px;
+                background-color: black;
+                color: white;
+                width: 500px;
+                display: flex;
+                flex-direction: column;
+                justify-items: start;
+                .imagenes{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    .imagen2{
+                        width: 250px;
+                        height: 100px;
+                    
+                    }
+                }
+                
+            }
+        }
+    }
+    }
+        footer{
+            background-color: black;
+            margin: 0px;
+        
+        .horariosFooter{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            list-style: none;
+            font-family: 'Mate SC', serif;
+            .horarios{
+                color: white;
+            }
+            .dias{
+                color: #FFB740;
+                
+            }
+        }
+    }
+
+
+}

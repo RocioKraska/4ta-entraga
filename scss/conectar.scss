@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    .cuerpo {
+        background-color: black;
+        height: 625px;
+        .nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            color: white;
+            padding-top: 2vh;
+
+            .navCategoria{
+                font-family: 'Mate SC', serif;
+                font-size: 17px;
+                color: white;
+                text-decoration: none;
+                list-style: none;
+            }
+            .navCategoria:hover{
+               color:#FFB740 ;
+            animation: nav 1s;
+            }
+            @keyframes nav{
+            0%{
+                font-size: 17px;
+            }
+                100%{
+                    font-size: 19px;
+                }
+            }
+            .navTitulo{
+                font-family: 'DM Serif Display', serif;
+                font-size: 23px;
+                color: white;
+                text-decoration: none;
+                list-style: none;
+            }
+        }
+        .contactoPrincipal{
+            font-family: 'Mate SC', serif;
+            display: flex;
+        flex-direction: row;
+        color: white;
+        margin-top: 20px;
+form{
+    margin-top: 50px;
+    
+}
+        .imagen{
+            height: 550px;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+        .texto1{
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+        
+        .tituloPrincipal{
+        font-size: 50px;
+        font-family: 'DM Serif Display', serif;
+        
+        }}
+
+        }
+
+    }
+        
+        footer{
+            background-color: black;
+            margin: 0px;
+        
+        .horariosFooter{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            list-style: none;
+            font-family: 'Mate SC', serif;
+            .horarios{
+                color: white;
+            }
+            .dias{
+                color: #FFB740;
+                
+            }
+        }
+    }
+
+
+}

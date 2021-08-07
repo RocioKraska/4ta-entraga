@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* .cuerpo {
+  background-color: black;
+  height: 625px;
+}
+* .cuerpo .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 2vh;
+}
+* .cuerpo .nav .navCategoria {
+  font-family: "Mate SC", serif;
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+* .cuerpo .nav .navCategoria:hover {
+  color: #FFB740;
+  animation: nav 1s;
+}
+@keyframes nav {
+  0% {
+    font-size: 17px;
+  }
+  100% {
+    font-size: 19px;
+  }
+}
+* .cuerpo .nav .navTitulo {
+  font-family: "DM Serif Display", serif;
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+* .cuerpo h2 {
+  color: white;
+  font-family: "DM Serif Display", serif;
+  font-weight: lighter;
+  margin-top: 60px;
+  margin-left: 100px;
+  animation: texto 4s;
+}
+* .cuerpo h3 {
+  color: white;
+  font-family: "Mate SC", serif;
+  font-weight: lighter;
+  margin-left: 100px;
+  animation: texto 4s;
+}
+* .cuerpo #contenedorPrimario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  animation: texto 4s;
+}
+* .cuerpo #contenedorPrimario .tituloSecundario {
+  color: white;
+  font-family: "Mate SC", serif;
+  font-size: 30px;
+}
+* .cuerpo #contenedorPrimario .enlace {
+  text-decoration: none;
+  color: #FFB740;
+  font-family: "Mate SC", serif;
+}
+* .cuerpo #contenedorPrimario .imagen {
+  height: 350px;
+  width: 200px;
+}
+* footer {
+  background-color: black;
+  margin: 0px;
+}
+* footer .horariosFooter {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  font-family: "Mate SC", serif;
+}
+* footer .horariosFooter .horarios {
+  color: white;
+}
+* footer .horariosFooter .dias {
+  color: #FFB740;
+}
+
+@media (max-width:615px){
+    * .cuerpo #contenedorPrimario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+        * .cuerpo #contenedorPrimario .imagen {
+            height: 200px;
+            width: 200px;
+          }
+          * .cuerpo {
+            background-color: black;
+            height: 1050px;
+          }
+          * .cuerpo h2{
+margin-left: 50px;
+          }
+          * .cuerpo h3{
+margin-left: 50px;
+          }
+
+}
+@media (max-width: 450px) {
+    .cuerpo .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  padding-left: 20px;
+    }
+
+  }
+  @media (max-width: 600px) {
+    footer .horariosFooter {
+     padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  
+    }
+  }
+  @media (max-width: 344px)  {
+    * .cuerpo {
+        background-color: black;
+        height: 1200px;
+      }
+
+  }
+
+/*# sourceMappingURL=toplibros.css.map */

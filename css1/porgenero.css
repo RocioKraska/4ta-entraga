@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* .cuerpo {
+  background-color: black;
+  height: 625px;
+}
+* .cuerpo .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 2vh;
+}
+* .cuerpo .nav .navCategoria {
+  font-family: "Mate SC", serif;
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+* .cuerpo .nav .navCategoria:hover {
+  color: #FFB740;
+  animation: nav 1s;
+}
+@keyframes nav {
+  0% {
+    font-size: 17px;
+  }
+  100% {
+    font-size: 19px;
+  }
+}
+* .cuerpo .nav .navTitulo {
+  font-family: "DM Serif Display", serif;
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+* .cuerpo .containerPrincipal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  animation: texto 4s;
+}
+* .cuerpo .containerPrincipal .card {
+  margin: 100px 10px 10px 10px;
+  font-family: "Mate SC", serif;
+}
+* .cuerpo .containerPrincipal .card .img-fluid {
+  width: 200px;
+  height: 200px;
+}
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+* footer {
+  background-color: black;
+  margin: 0px;
+}
+* footer .horariosFooter {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  font-family: "Mate SC", serif;
+}
+* footer .horariosFooter .horarios {
+  color: white;
+}
+* footer .horariosFooter .dias {
+  color: #FFB740;
+}
+@media (max-width: 450px) {
+    .cuerpo .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  padding-left: 20px;
+    }
+
+  }
+  @media (max-width: 600px) {
+    footer .horariosFooter {
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  
+    }
+    * .cuerpo .containerPrincipal{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    * .cuerpo .containerPrincipal .card {
+        height: 250px;
+        margin-top: 20px;
+
+
+    }
+    * .cuerpo .containerPrincipal .card .img-fluid {
+        width: 100px;
+        height: 100px;
+      }
+      * .cuerpo .containerPrincipal .card .card-text{
+          width: 200px;
+      display: float;
+      float: right;
+
+      }
+      * .cuerpo {
+        background-color: black;
+        height: 950px;
+      }
+          
+}
+
+@media (max-width: 450px) {
+    .cuerpo .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  padding-left: 20px;
+    }
+    * .cuerpo .containerPrincipal .card {
+        height: 300px;
+        margin-top: 20px;
+
+
+    }
+    * .cuerpo {
+        background-color: black;
+        height: 1100px;
+      }
+  }
+
+  @media (max-width: 600px) {
+    footer .horariosFooter {
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  
+    }
+  }
+/*# sourceMappingURL=porgenero.css.map */
